@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first_menu"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="첫번째" />
+    <item
+        android:id="@+id/second_menu"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="두번째" />
+    <item
+        android:id="@+id/more_menu"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="더보기">
+        <menu>
+            <item
+                android:id="@+id/third_menu"
+                android:orderInCategory="1"
+                app:showAsAction="ifRoom"
+                android:icon="@android:drawable/ic_delete"
+                android:checkable="true"
+                android:checked="true"
+                android:title="세번째" />
+            <group
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/fourth_menu"
+                android:orderInCategory="3"
+                app:showAsAction="ifRoom"
+                android:checkable="true"
+                android:icon="@android:drawable/ic_media_play"
+                android:title="네번째" />
+            <item
+                android:id="@+id/fifth_menu"
+                android:orderInCategory="4"
+                app:showAsAction="ifRoom"
+                android:checkable="true"
+                android:icon="@android:drawable/ic_lock_lock"
+                android:title="다섯번째" />
+            </group>
+        </menu>
+    </item>
+</menu>
