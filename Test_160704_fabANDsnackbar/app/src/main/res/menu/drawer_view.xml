@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="title" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="about" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="setting" />
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="sub_header">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_1"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_2"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+                <item
+                    android:id="@+id/navigation_sub_item_12"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_22"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+                <item
+                    android:id="@+id/navigation_sub_item_13"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_23"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/navigation_subheader2"
+            android:title="sub_header">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_3"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_4"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+                <item
+                    android:id="@+id/navigation_sub_item_32"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_42"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+                <item
+                    android:id="@+id/navigation_sub_item_33"
+                    android:icon="@android:drawable/ic_media_rew"
+                    android:title="nav_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_43"
+                    android:icon="@android:drawable/ic_popup_disk_full"
+                    android:title="nav_sub_item_2" />
+            </menu>
+        </item>
+    </group>
+</menu>
