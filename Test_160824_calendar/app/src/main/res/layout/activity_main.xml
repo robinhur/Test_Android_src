@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.huza.test_160824_calendar.MainActivity">
+    tools:context="com.example.huza.test_160824_calendar.MainActivity"
+    android:weightSum="1">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,6 +28,14 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:onClick="next_month"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="오늘"
+            android:id="@+id/today_month"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/next_month"
+            android:onClick="today_month"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,7 +103,30 @@
 
     <GridView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="274dp"
         android:id="@+id/grid_month"
-        android:numColumns="7" />
+        android:numColumns="7"
+        android:layout_weight="1.01" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#999999">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scheduleET"
+            android:layout_toLeftOf="@+id/scheduleBT"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력"
+            android:id="@+id/scheduleBT"
+            android:layout_alignParentEnd="true"
+            android:onClick="insert_schedule"/>
+
+    </RelativeLayout>
 </LinearLayout>
