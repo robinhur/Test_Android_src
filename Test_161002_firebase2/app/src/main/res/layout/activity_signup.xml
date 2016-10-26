@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    tools:context="com.huza.test_161002_firebase2.LoginActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:id="@+id/textinputlayout_signup_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_signup_id"
+            android:hint="ID"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:id="@+id/textinputlayout_signup_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_signup_pw"
+            android:hint="Password"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:id="@+id/textinputlayout_signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_signup_name"
+            android:hint="Name"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:id="@+id/textinputlayout_signup_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_signup_age"
+            android:hint="Age"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Sign up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSignUp"
+            android:id="@+id/btn_signup" />
+
+    </LinearLayout>
+</LinearLayout>

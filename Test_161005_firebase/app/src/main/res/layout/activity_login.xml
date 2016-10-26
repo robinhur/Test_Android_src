@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huza.test_161005_firebase.LoginActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:id="@+id/id_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:id="@+id/text_id"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:orientation="horizontal"
+        android:id="@+id/pw_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PW"
+            android:id="@+id/text_pw"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login_clicked (LoginActivity)"
+        android:id="@+id/btn_login" />
+
+    <Button
+        android:text="SIGN up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_signup"
+        android:onClick="signup_clicked" />
+
+</LinearLayout>

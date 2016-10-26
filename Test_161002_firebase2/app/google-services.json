@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "158808156675",
+    "firebase_url": "https://test-161002-firebase2.firebaseio.com",
+    "project_id": "test-161002-firebase2",
+    "storage_bucket": "test-161002-firebase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158808156675:android:588abf024dca159a",
+        "android_client_info": {
+          "package_name": "com.huza.test_161002_firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158808156675-v183k5ivnea92dc5p0vi678lkb8nq29q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFVYFmDyNOPduGMixdAKm3J28fKLAiPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
